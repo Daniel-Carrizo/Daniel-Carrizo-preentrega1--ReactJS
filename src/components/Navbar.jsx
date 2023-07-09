@@ -12,12 +12,12 @@ function Navbar() {
   return (
     <>
       <NavContainer>
-        <h2>Navbar <span>Responsive</span></h2>
+        <h2>VEME <span>fashion</span></h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
           <a onClick={handleClick} href="#h">Home</a>
-          <a onClick={handleClick} href="#h">Shop</a>
-          <a onClick={handleClick} href="#h">About</a>
-          <a onClick={handleClick} href="#h">Contact</a>
+          <a onClick={handleClick} href="#h">Tienda</a>
+          <a onClick={handleClick} href="#h">Sobre nosotros</a>
+          <a onClick={handleClick} href="#h">Contacto</a>
           <a onClick={handleClick} href="#h">Blog</a>
         </div>
         <div className='burguer'>
