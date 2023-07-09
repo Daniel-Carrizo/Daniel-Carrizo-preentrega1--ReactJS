@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <>
       <NavContainer>
-        <h2>VEME <span>fashion</span></h2>
+        <h2>VEME <span>moda</span></h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
           <a onClick={handleClick} href="#h">Home</a>
           <a onClick={handleClick} href="#h">Tienda</a>
